@@ -1,9 +1,13 @@
 class Problameno1{
     //write a java program/method  to display average of three numbers 
 
+    // it take less space as compare to second method 
   int a=34,b=89,c=76;
-  int result=(a+b+c)/3;
+  int result=(a+b+c)/3;//this is the formula for calculating the average
  
+
+  //this is another method which is more take space
+
     // void averrage(int a, int b, int c){
     //   int result=(a+b+c)/3;
     //   System.out.println(result);
