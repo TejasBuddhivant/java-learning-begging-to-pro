@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    background-color: rgb(31, 30, 30);
+    color: azure;
+}
+
+h1{
+font-size: 35px;
+font-family: "Rubik Vinyl", serif;
+font-weight: 400;
+font-style: normal;
+
+}
+nav{
+    background-color: #9f9f9f;
+    height: 60px;
+    width: 100%;
+  
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: 250px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight:bolder;
+
+    transition: text-shadow 0.3s ease;
+}
+a:hover {
+    text-shadow: 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff; 
+  }
+
+  /* here the css start for main content  */
+  main{
+    padding-bottom: 200px;
+  }
+.picture{
+    display:grid;
+   align-items: center;
+    justify-content: center;
+    background-color: #3e3d3d;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-radius: 0 0 10px 10px;
+
+}
+.picture img{
+    justify-content: center;
+   
+    align-items: center;
+    border-radius: 100%;
+    height: 300px;
+    margin-left: 15px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to up, azure, black) border-box;
+    border-radius: 70em;
+    border: 15px solid transparent;
+
+    box-shadow: rgba(208, 210, 211, 0.8) 0 0 50px 33px;
+    transition: box-shadow 0.5s ease-in-out;
+  transition-delay: 0.2s;
+
+}
+.picture img:hover {
+    box-shadow: azure 0 0 90px 60px;
+  }
+.picture p{
+    width: 300px;
+}
+
+.picture h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/* here starting the cards design  */
+
+/* this is card one */
+.card{
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    justify-content:space-around;
+    width: 100%;
+    height: 360px;
+    margin-bottom: 20px;
+    background-color: #d4d4d4;
+    background: linear-gradient(toright black , #d4d4d4);
+    color: black;
+    font-size: 20px;
+    border-radius: 10px 0 0 10px;
+    transition-delay: 400ms;
+    
+}
+
+.card h3{
+    margin-left: 70px;
+    margin-right: 80px;
+    text-align: center;
+}
+.card p{
+    display: inline;
+    margin-bottom: 100px;
+}
+.card img{
+    border-radius: 15px 0 0 15px;
+    width: 650px;
+}
+
+.card button{
+margin-top: 50px;
+margin-left: 6px;
+width: 100%;
+height: 40px;
+
+background-color: black;
+color: azure;
+font-size: 20px;
+border-radius: 20px;
+border: 2px solid azure;
+
+    
+}
+footer{
+    background-color: #3e3d3d;
+}
+.linksfooter{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+.linksfooter img:hover{
+    box-shadow: 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff; 
+
+}
+
+/* this is second page css */
+.info{
+    display:grid;
+    align-items: center;
+     justify-content: center;
+     background-color: #3e3d3d;
+     margin-top: 80px;
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 100px;
+     border-radius: 0 0 10px 10px;
+}
+
+.info p{
+    width: 700px;
+    justify-content:start;
+    text-align: start;
+    margin-left: -600px;
+}
+
+.info h2{
+    font-size: 30px;
+    font-weight: 900;
+}

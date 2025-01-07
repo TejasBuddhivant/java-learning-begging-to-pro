@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="h" class="coreSpring.coreSpring.Hello">
+   <property name="msg" value="Hello Spring"></property>
+</bean>
+
+<!-- <bean id="o1" class="diwithsetter.A">
+<property name="num1" value="2"></property>
+</bean>
+<bean id="sq" class="diwithsetter.Square">
+<property name="s" value="0"></property>
+<property name="obj" ref="o1"></property>
+</bean> -->
+
+<bean id="d" class="diwithcon.Data">
+<constructor-arg name="num1" value="2"></constructor-arg>
+<constructor-arg name="num2" value="4"></constructor-arg>
+</bean>
+
+<bean id="a" class="diwithcon.Addition"> 
+<constructor-arg name="d" ref="d"></constructor-arg>
+</bean>
+</beans>

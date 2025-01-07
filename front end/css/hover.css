@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+    background-image: url('/Screenshot\ 2024-09-19\ 160151.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+
+    border-top: 20px double rgba(8, 8, 7, 0);
+}
+
+
+
+.artic{
+    display: flex;
+    background-color: transparent;
+
+
+}
+.artic,p{
+    border: 10px dotted black;
+    border-radius:30px;
+    transition-delay: 500ms;
+  
+}
+p:hover{
+   
+ 
+    border-radius: 10px;
+    
+   background:linear-gradient(to right,rgba(92, 255, 255, 0.76),rgb(61, 61, 236),rgb(252, 212, 212));
+   color: linear-gradient(to right,rgb(255, 212, 212),whitesmoke);
+}
+article{
+    flex: 1;
+    background-color: #302f3b7c;
+}
+aside{
+    flex:3;
+    padding: 100px;
+  
+    
+}
+input,submit{
+    background: linear-gradient(to right,red,#a08787,yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

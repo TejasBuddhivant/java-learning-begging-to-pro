@@ -1,0 +1,5 @@
+HTML sementics tag work as meaning  semantics called as meaning 
+This is introduce in HTML 5 
+In the Semantics tag every tag is has its own meaning.
+When tag dose’t close its called as void tags 
+Gather information for &nbsp 
