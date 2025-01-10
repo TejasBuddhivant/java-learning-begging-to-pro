@@ -1,1 +1,1 @@
-document.write("hello world !!!");
+arr.push(777);

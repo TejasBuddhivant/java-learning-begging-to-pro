@@ -100,3 +100,35 @@
 // }
 // Aroowfunc(5);
 
+//now its time for collection datatpes in js array is called as colletions datatypes 
+
+let arr=[1,3,45,6,7,65,32];
+console.log(arr);
+
+// arr.push(777);
+// console.log(arr);
+
+
+// arr.pop();
+// console.log(arr);
+
+// console.log(arr.reverse());
+
+// arr.sort();
+// console.log(arr);
+// console.log("hello world");
+
+// now String operations
+
+let str="TejasBuddhivant";
+
+console.log(str.concat(" I am BOY"));
+console.log(str.indexOf('d'));
+console.log(str.length);
+console.log(str.charAt(8));
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+console.log(str.substring(2,7));
+
+
