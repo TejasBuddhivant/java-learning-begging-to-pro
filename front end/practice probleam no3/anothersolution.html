@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is another solution of calculator</title>
+    <style>
+        body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, skyblue, blue);
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+}
+form{
+    margin-left: 70vh;
+    margin-top: 10vh;
+    padding: 20px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 20px -20px 80px;
+}
+form button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #265421;
+    color: white;
+    font-size: 20px;
+
+}
+
+form input{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 20px;
+
+}
+form h2{
+    padding-top: 50px;
+    text-shadow: 8px 8px 10px rgb(30, 53, 255) ;
+    
+    color: rgb(0, 0, 0);
+
+}
+    </style>
+</head>
+<body>
+   <form id="form1" onsubmit="event.preventDefault()">
+    Enter First Number: <input type="text" name="num1" id="num1"><br><br>
+    Enter Second Number: <input type="text" name="num2" id="num2"><br><br>
+    <select name="op" >
+        <option value="add">Addition</option>
+        <option value="sub">Subtraction</option>
+        <option value="mult">Multiplication</option>
+        <option value="div">Division</option>
+    </select>
+<br><br><br>
+    <button onclick="Calculate()">Calculate</button>
+    <h2 id="result"></h2>
+   </form>
+    <script src="anothersolution.js"></script>
+</body>
+</html>
