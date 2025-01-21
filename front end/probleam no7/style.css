@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+.imagegroup{
+   display: flex;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    background-color: blue;
+    color: whitesmoke;
+    height: 150px;
+}
+.imagegroup,img{
+   
+  margin-left: 20px;
+    margin-right: 80px;
+    width: 350px;
+}
