@@ -1,0 +1,51 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.maind {
+
+    margin-top: 20vh;
+    background-color: #0000006e;
+    align-items: center;
+    border: 2px solid black;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #333;
+}
+
+#output {
+    font-size: 5rem;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0078D7;
+    color: #fff;
+}
+
+#plus {
+    background-color: green;
+    color: white;
+}
+
+#minus {
+    background-color: red;
+    color: white;
+}
